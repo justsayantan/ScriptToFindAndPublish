@@ -1,0 +1,14 @@
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\ScriptForFindAndPublish.exe.config
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\ScriptForFindAndPublish.exe
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\ScriptForFindAndPublish.pdb
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Debug\ScriptForFindAndPublish.csprojResolveAssemblyReference.cache
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Debug\ScriptForFindAndPublish.exe
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Debug\ScriptForFindAndPublish.pdb
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\ScriptForFindAndPublish.exe.config
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Debug\ScriptForFindAndPublish.exe
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Debug\ScriptForFindAndPublish.pdb
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\ScriptForFindAndPublish.exe
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\ScriptForFindAndPublish.pdb
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+C:\D\GitHub\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Debug\ScriptForFindAndPublish.csprojResolveAssemblyReference.cache

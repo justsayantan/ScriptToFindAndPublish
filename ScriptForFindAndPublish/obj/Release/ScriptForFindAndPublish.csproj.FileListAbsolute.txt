@@ -1,0 +1,7 @@
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Release\ScriptForFindAndPublish.exe.config
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Release\ScriptForFindAndPublish.exe
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Release\ScriptForFindAndPublish.pdb
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\bin\Release\Tridion.ContentManager.CoreService.Client.dll
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Release\ScriptForFindAndPublish.exe
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Release\ScriptForFindAndPublish.pdb
+c:\users\sbasu\documents\visual studio 2015\Projects\ScriptForFindAndPublish\ScriptForFindAndPublish\obj\Release\ScriptForFindAndPublish.csprojResolveAssemblyReference.cache
