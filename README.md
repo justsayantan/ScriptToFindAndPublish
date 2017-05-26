@@ -12,10 +12,10 @@ I have discussed with our colleagues to take their expert suggestion and also fi
 
 Functionality: 
 As input that script will accept below item –
-•	Template Id
-•	Publication Id (from where you want to find and publish)
-•	Target Id or Purpose
-•	Want to Publish?
+1)     Template Id
+2)	Publication Id (from where you want to find and publish)
+3)	Target Id or Purpose
+4)	Want to Publish?
 
 Functionality of Script once all the inputs are validated: 
 1)	Find all the resolved items based on dynamic component template.
@@ -44,7 +44,7 @@ Find all the resolved items based on dynamic component template –
 
 Get the Components from That publishingContext - 
 
-List<ComponentPresentation> componentPresentations = (
+       List<ComponentPresentation> componentPresentations = (
                     from resolvedContext in publishingContext
                     from resolvedItem in resolvedContext.ResolvedItems
                     select new ComponentPresentation
@@ -58,31 +58,31 @@ List<ComponentPresentation> componentPresentations = (
 
 Find the Distinct items from that list (Remove duplicate items):
 
-foreach (var cp in componentPresentations)
-{                            
-    publishComponentList.Add(cp.Component.IdRef);                            
-}
-publishComponentList.Distinct().Count();
+       foreach (var cp in componentPresentations)
+       {                            
+           publishComponentList.Add(cp.Component.IdRef);                            
+       }
+       publishComponentList.Distinct().Count();
 
 
 Re-Publish those items to the same target from particular publication and also from child.
 
-PublishInstructionData instruction = new PublishInstructionData
-{
-    ResolveInstruction = new ResolveInstructionData()
-{
-                    IncludeChildPublications = IsPublishingFromChild,
-                    Purpose = ResolvePurpose.RePublish,
-                    IncludeWorkflow = false,
-                    IncludeComponentLinks = false
-                },
-    RenderInstruction = new RenderInstructionData()
+       PublishInstructionData instruction = new PublishInstructionData
+       {
+           ResolveInstruction = new ResolveInstructionData()
+       {
+                           IncludeChildPublications = IsPublishingFromChild,
+                           Purpose = ResolvePurpose.RePublish,
+                           IncludeWorkflow = false,
+                           IncludeComponentLinks = false
+                       },
+           RenderInstruction = new RenderInstructionData()
 
-};
-foreach (string componentId in publishComponentList.Distinct())
-{
-   client.Publish(new[] { componentId }, instruction, new[] { targetId }, PublishPriority.Low, new ReadOptions { LoadFlags = LoadFlags.None });
-}
+       };
+       foreach (string componentId in publishComponentList.Distinct())
+       {
+          client.Publish(new[] { componentId }, instruction, new[] { targetId }, PublishPriority.Low, new ReadOptions { LoadFlags = LoadFlags.None });
+       }
 
 
 I have already prepared the draft version of the script. All you need to do – 
