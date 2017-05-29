@@ -1,5 +1,5 @@
 # ScriptToFindAndPublish
-Script To Find Component By Templates And Re-Publish
+
 In my previous blog I have described how easily we can add or update field of the page metadata in one go and publish all the pages using Coreservice API. Today I will describe another script which is not very common but sometime useful. 
 
 Scenario: 
